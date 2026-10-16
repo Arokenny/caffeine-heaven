@@ -125,8 +125,10 @@ button { font-family: inherit; }
   .menu-list li { height: auto; padding: 3.2cqw 0; font-size: 6cqw; }
   .dripper { display: none; }
   .location-panel { min-height: 120vw; }
-  .cities .main { font-size: 16cqw; }
-  .cities .side { font-size: 10cqw; }
+  .cities .main { font-size: 14cqw; }
+  .cities .side { font-size: 7cqw; }
+  .cities .left { margin-left: -6cqw; }
+  .cities .right { margin-right: -8cqw; }
   .addr { font-size: .7rem; padding: 0 1rem; top: 52%; }
   .landmark { opacity: .55; }
   .review-panel { min-height: 130vw; }
@@ -140,6 +142,10 @@ button { font-family: inherit; }
   .btn-light { font-size: .9rem; padding: .3rem .8rem; }
   .member-panel h2 { font-size: 11cqw; white-space: normal; text-align: center; transform: none; padding-bottom: 4cqw; }
   .brand, .year { font-size: .7rem; }
+}
+@media (max-width: 520px) {
+  .cities .main { font-size: 13cqw; }
+  .cities .side { font-size: 5.5cqw; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
